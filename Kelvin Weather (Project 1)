@@ -1,0 +1,15 @@
+//The forecast for today is 293 kelvin
+const kelvin = 0
+
+//Celsius is 273 degrees less than kelvin
+const celsius = kelvin - 273
+
+//Fahrenheit can be derived from celsius
+let fahrenheit = celsius * (9/5) + 32
+
+//This rounds fahrenheit to a whole number
+fahrenheit = Math.floor(fahrenheit)
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+let newton = celsius * (33/100)
+newton = Math.floor(newton)
+console.log(`The temperature is ${newton} degrees Newton.`
