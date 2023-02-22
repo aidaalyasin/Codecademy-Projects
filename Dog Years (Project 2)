@@ -1,0 +1,24 @@
+//I am 16 years old
+const myAge = 16
+
+//This is the amount of years that will be 10.5 dog years
+let earlyYears = 2
+earlyYears *= 10.5
+
+//The amount of years that are counted as 4 dog years
+let laterYears = myAge - 2
+
+//The amount of my years that are counted as 4 dog years
+laterYears *= 4
+console.log(earlyYears)
+console.log(laterYears)
+
+//This is how old I would be if I was a dog
+var myAgeInDogYears = earlyYears + laterYears
+
+//This is my name in lowercase letters
+var myName = 'Aida'
+'Aida'.toLowerCase
+
+//This sentence should say "My name is Aida. I am 16 years old in human years which is 77 years old in dog years."
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
